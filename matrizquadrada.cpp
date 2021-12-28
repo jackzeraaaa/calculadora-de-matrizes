@@ -2,7 +2,7 @@
 #include "matrizquadrada.h"
 
 MatrizQuadrada::MatrizQuadrada(){
-    //Recebendo o tamanho da matriz e alocando dinamicamente
+    //Recebendo o tamanho da matriz e alocando dinamicamente na memória
     tamanho = new int;
     std::cout << "Digite o tamanho da matriz: ";
     std::cin >> *tamanho;
