@@ -29,8 +29,8 @@ void leMatriz(MatrizQuadrada &M1){
 
 void criaMatrizIdentidade(MatrizQuadrada &M1, int n){
     //Criando um for que irá armazenar o valor de 1 em todos os índices que constituem a diagonal principal da matriz
-    //ou seja, quando o índice da linha for igual o índice da coluna
-    //caso contrário, irá armazenar 0 nos índices restantes.
+    //ou seja, quando o índice da linha for igual o índice da coluna.
+    //Caso contrário, irá armazenar 0 nos índices restantes
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
             if(i==j){
